@@ -44,7 +44,7 @@ $(call Package/netxms/Default)
 	SECTION:=libs
 	CATEGORY:=Libraries
 	TITLE+= common libraries
-	DEPENDS:=+libatomic +libexpat +libpthread +libstdcpp +zlib +libpcre +libopenssl
+	DEPENDS:=+libatomic +libexpat +libpthread +libstdcpp +zlib +libpcre +libpcre32 +libopenssl
 endef
 
 define Package/netxms-base/description
